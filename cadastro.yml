@@ -1,0 +1,21 @@
+---
+
+bandas:
+  - "Pet Shop Boys"
+  - "Erase"
+  - "A Ha"
+  - "Information Society"
+  - "Sonia"
+
+cadastro:
+  nome: Gustavo
+  sobrenome: Nascimento
+  idade: 49
+  endereco:
+    rua: Rua da Glória
+    numero: 5987
+    bairro: Gloria
+    estado: RJ
+    cidade: Rio de Janeiro
+  bandas-preferidas: "{{ bandas }}"  
+---
